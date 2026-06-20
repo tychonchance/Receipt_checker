@@ -1,0 +1,14 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pip install -q -r \"${CLAUDE_PLUGIN_ROOT}/server/requirements.txt\" -r \"${CLAUDE_PROJECT_DIR}/backend/requirements.txt\""
+          }
+        ]
+      }
+    ]
+  }
+}

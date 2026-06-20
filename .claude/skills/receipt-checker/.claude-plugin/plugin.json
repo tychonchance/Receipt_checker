@@ -1,0 +1,10 @@
+{
+  "name": "receipt-checker",
+  "displayName": "Receipt Checker",
+  "description": "Process receipt images with Claude Vision and match them to calendar events. Exports colour-coded spreadsheets.",
+  "version": "1.0.0",
+  "author": {
+    "name": "tychonchance"
+  },
+  "keywords": ["receipts", "expenses", "calendar", "matching", "excel"]
+}
